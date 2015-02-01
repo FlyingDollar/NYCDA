@@ -1,0 +1,18 @@
+<style type="text/css">
+			body{
+				background-color:black;
+			}
+
+			.redbox{
+				width:100px;
+				height:100px;
+				/*background-color:red;*/
+				border:solid 4px red; 
+			}
+
+			#topParagraph{
+				color:white;
+				font-size:14pt;
+				font-family:sans-serif;
+			}
+		</style>
