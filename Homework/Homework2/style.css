@@ -326,3 +326,36 @@ a:hover img { display:block; }
     position:absolute;
     margin-top:7%;
 }*/
+video#bgVideo {
+  position: absolute; // Play the video in full screen mode
+  top: 0px; 
+  left: 0px;
+margin-top: -7%;
+ 
+  min-width: 600px; 
+  min-height: 860px;
+  z-index: -1; // Put the video behind all other elements
+/*  background: url(images/fdbgvideo.mov) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+ 
+@media only screen and (max-width: 768px) {
+  video {
+    display:none;
+  }
+  body{
+    background-image:url("image.png");
+  }
+}
+#TenantTitle{
+    position:relative;
+    font-family: 'Codystar', plain;
+    font-size: 500%;
+    color: white; 
+    margin-top: 7%;
+    text-align: center;
+    min-width:999px;
+}
