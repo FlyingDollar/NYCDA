@@ -1,5 +1,5 @@
 body {
-	width:1500px;
+	width:1200px;
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;
 }
@@ -29,3 +29,17 @@ h1{
         -moz-border-radius: 3px;
         border-radius: 3px;
 }
+.column1of3{
+	float: left;
+	width: 300px;
+	margin-left: 97px;
+}
+.column2of3{
+	float: left;
+	width: 300px;
+	margin: 41px;
+}
+.column3of3{
+	margin-top:50px;
+}
+
